@@ -2,10 +2,12 @@
 
 html, * {
     font-family: Vazirmatn;
+    font-size: 5vmin !important;
 }
 
 body {
 	background: #DDD;
+  overflow-x: hidden;
 }
 #wrap {
   margin: 50px auto;
@@ -62,14 +64,15 @@ input[type="submit"]:hover {
 }
 
 .hadeeths {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .hadeeths p {
   font-size: 40px;
   display: block;
   color: #555;
-  padding-right: 60px;
+  padding-right: 1rem;
+  padding-left: 1rem;
   background: none;
   border-bottom: 1px solid #BBB;
   padding-bottom: 3rem;

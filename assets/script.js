@@ -10,7 +10,7 @@ async function fetchHadeeths(){
     const json = await response.json()
     hadeeths.innerHTML = ""
     json.map(item => {
-        hadeeths.innerHTML += `<p class="hadeeth">(${item.id}) ${item.content}</p>`
+        hadeeths.innerHTML += `<p class="hadeeth">- ${item.content}</p>`
     })
 }
 fetchHadeeths()
